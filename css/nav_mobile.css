@@ -1,0 +1,95 @@
+* {margin: 0; padding: 0; }
+body { background: url('/css/back.jpg') repeat-y; }
+.main-nav{    
+    width: 100%;
+    height:7em;
+    position: relative;
+}
+.main-nav .title{
+    background: #ff8900;
+    text-transform: uppercase;
+	position: relative;
+	font-family: 'Poiret One';
+	float: left;
+	margin: 1% 2% 1% 1%;
+	padding: 1% 1% 1% 1%;
+	cursor: pointer;
+	z-index: 2;
+}
+.main-nav .title a {
+    color: #fff;
+    text-decoration: none;
+	font-size: 3em;
+	text-align: center;
+	z-index: 3;
+}
+.main-nav .title p {
+    color: #fff;
+	font-size: 1.5em;
+	letter-spacing: 0.05em;
+	text-align: center;
+	padding: 0 0 0 1%;
+	z-index: 3;
+}
+.main-nav .sk_wrap{    
+    float: right;    
+    padding: 4% 4% 0% 4%;
+}
+
+.press {    
+    border-color:#ff8900;
+    border-style: solid;
+    border-radius: 1em;
+    background: #ff8900;
+    width: 96%;
+    height:4em;
+    position: relative;
+    margin: 2% 1% 2% 1%;
+
+}
+.press a,p {
+    color: black;
+    font-size: 1.5em;
+    font-weight: 700;
+    font-family: 'Poiret One';
+    text-decoration: none;
+    text-align: center;
+    padding: 2% 0% 2% 0%;
+}
+.press a:hover{color: #ff8900;}
+
+.sec_container {
+    position: relative;
+    padding: 6% 0% 0% 0%;
+}
+.fp_div{
+    float: left;
+    width: 40em;
+    padding: 6% 0% 0% 0%;
+}
+.fp_head{
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: 700;
+    color: black;
+    padding: 0% 0% 0% 5%;
+}
+.fp_bot{
+    text-align: center;
+    font-size: 2em;
+    font-weight: 600;
+    color: black;
+    margin: 0% 0% 0% 5%;
+}
+
+.mp_req{
+    font-size: 1.5em;
+    font-weight: 700;
+    color: black;
+    padding: 0.3% 6%;
+}
+
+.span_format{
+    font-weight: 900;
+    color:#ff8900;
+}

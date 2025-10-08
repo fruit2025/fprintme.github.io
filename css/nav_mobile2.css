@@ -1,0 +1,162 @@
+* {margin: 0; padding: 0; }
+
+body, html {
+    background: url('../bg.jpg') no-repeat;
+    background-size: cover;
+    background-position:center;
+}
+
+
+
+.main-nav .bg{
+ 	position: absolute;
+ 	top: 0;
+ 	left: 0;
+ 	width: 100%;
+ 	height: 100%;
+ 	background: #000;
+ }
+.main-nav .title{
+    background: #f68414;
+	position: relative;
+	font-family: 'Oswald', sans-serif;
+	margin: 0;
+	padding: 6% 2%;
+	z-index: 3;
+	font-weight: bold;
+	text-align: center;
+	letter-spacing: 0.5em;
+}
+.main-nav .title a {
+    color: white;
+	line-height: 1.2;
+    text-decoration: none;
+	font-size: 4em;
+	text-align: center;
+	z-index: 3;
+}
+.main-nav .title p {
+    color:  #000;
+	font-family: 'Oswald', sans-serif;
+	font-variant: small-caps;
+	font-size: 1.5em;
+	letter-spacing: 0.5em;
+	text-align: center;
+	padding: 0 0 0 1%;
+	z-index: 3;
+}
+
+
+.dos { 
+    background: black;   
+    width: 100%;
+    margin: 10% 0;
+    float: left;
+	letter-spacing: 0.03em;
+    padding: 10% 0%;
+
+}
+.press { 
+    background: black;   
+    width: 100%;
+    position: relative;
+    margin: 0;
+	padding: 6% 0%;
+
+}
+.press a,p {
+    color: #f68414;
+    font-size: 1.6em;
+	letter-spacing: 0.1em;
+    font-weight: 700;
+	line-height: 1.8;
+	font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    text-align: center;
+}
+.press a:hover{color: white;}
+
+.sec_container{
+    margin: 0;
+}
+
+.sec_container2{
+    padding: 0% 0% 0% 0%;
+}
+.fp_div{
+    float: left;
+    width: 40em;
+	letter-spacing: 0.05em;
+    padding: 2% 0% 0% 0%;
+}
+
+.p2 {
+    color: white;
+	width: 70%;
+    font-size: 1.5em;
+	letter-spacing: 0.05em;
+	font-family: 'PT Sans', sans-serif;
+    text-decoration: none;
+    text-align: left;
+    padding: 3% 0% 10% 5%;
+}
+.fp_head{font-family: 'PT Sans', sans-serif;
+    text-align: left;
+    font-size: 1.9em;
+    font-weight: 700;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+    color: #f68414;
+    padding: 10% 0% 0% 5%;
+}
+
+.fp_head2{font-family: 'PT Sans', sans-serif;
+    text-align: left;
+    font-size: 2.2em;
+    font-weight: 700;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+    color: #f68414;
+    padding: 10% 0% 0% 5%;
+}
+.fp_bot{font-family: 'PT Sans', sans-serif;
+    text-align: left;
+	text-transform: uppercase;
+    font-size: 1.6em;
+	line-height: 1.6em;
+	letter-spacing: 0.03em;
+    color: black;
+    margin: 0% 0% 0% 11%;
+}
+.mp_req{font-family: 'PT Sans', sans-serif;
+    text-align: left;
+	letter-spacing: 0.03em;
+    font-size: 2em;
+	line-height: 1.5em;
+    color: black;
+    padding: 0.3% 6%;
+}
+
+.mp_req2{
+
+}
+.mp_req a:hover{
+	color: black;
+}
+.mp_req a{
+    color: #f68414;
+    text-decoration: none;
+ 	font-family: 'PT Sans', sans-serif;
+	cursor: pointer;
+}
+
+.span_format{
+    font-weight: 900;
+    color:#ff8900;
+}
+.first {
+ width: 100%;
+ heigt: 50vh:
+ background: #f68414;
+ 
+}
